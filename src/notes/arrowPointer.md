@@ -1,10 +1,10 @@
 ### Arrow Pointer in C
 
-<p>imagine you have a box of crayons and each crayon has its own special box. Now, let's think about a pointer as a special map that tells us where each crayon box is.
+<p>Imagine you have a box of crayons and each crayon has its own special box. Now, let's think about a pointer as a special map that tells us where each crayon box is.
 
 <p> In C, when we work with something called "structures" (like a collection of different boxes, each holding different types of crayons), we use an "arrow pointer" to easily access the crayons inside those boxes.
 
-<u>Basics of Structures and Pointers
+**Basics of Structures and Pointers**
 
 1. Structure (Box of Crayons):
 
@@ -15,12 +15,11 @@ Example: A box that holds a crayon's color and length.
 
 A pointer to a structure is like a map that tells us where the box is.
 
-<u>Arrow Pointer (->)
+**Arrow Pointer (->)**
 
-<i> The arrow pointer (->) is a special tool we use when we have a map (pointer) to a box (structure) and we want to get something inside that box directly.
+*The arrow pointer (->) is a special tool we use when we have a map (pointer) to a box (structure) and we want to get something inside that box directly.*
 
-<p>
-
+<p> Summary:
 
 1. Structure Definition:
 
@@ -39,7 +38,7 @@ A pointer to a structure is like a map that tells us where the box is.
 3. Visualization
 
 - Without Pointer:
-If we want the color directly, we say ```myCrayon.color.```
+If we want the color directly, we say ```myCrayon.color```
 
 - With Pointer:
 If we have the map to the box, we say ```crayonPtr->color``` to get the color.
