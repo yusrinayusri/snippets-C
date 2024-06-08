@@ -1,4 +1,6 @@
 /*
+* FUNCTION POINTER
+*
 * Imagine you have a toy robot that can perform different actions like walking, 
 * talking, and dancing. You have a remote control with different buttons to control these actions.
 * Now, think of each button on the remote control as a "pointer" that points to a specific function 
@@ -8,7 +10,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SONG "Twinkle twinkle little star"
+#define SONG "Twinkle twinkle little star\
+              How I wonder what you are\
+              Up above the world so high\
+              Like a diamond in the sky"
 
 //function prototypes
 //declare the robot functions
@@ -21,7 +26,7 @@ int sendCode(int);
 /* MAIN FUNCTION */
 int main(){
 
-    printf("\t FUNCTION POINTERS \n");
+    printf("\t FUNCTION POINTERS \n\n");
 
     //declare a function pointer
     void (*remoteFunction)();
@@ -59,25 +64,34 @@ int main(){
 /* ROBOTIC FUNCTIONS DEFINITION */
 void moveArms(){
 
-    printf("\\/\\/\\/\\/\\/\\/\\/\n");
+    printf("Robot moves right arm at 30 degrees upwards\n");
+    printf("Robot moves left arm at 30 degrees backwards\n");
+    printf("Robot moves right arm at 60 degrees backwards\n");
+    printf("Robot moves left arm at 60 degrees upwards\n");
+    printf("........... \n");
 }
 
 void moveLegs(){
 
-    printf("_| |_ \n");
+    printf("Robot moves right leg at 30 degrees forward\n");
+    printf("Robot sets right leg on the floor\n");
+    printf("Robot moves left leg at 40 degrees forward\n");
+    printf("Robot sets left leg on the floor\n");
+    printf("........... \n");
 }
 
 void nodHead(){
 
-    printf("\t --- \n");
-    printf("\t ^ ^ \n");
-    printf("\t  v  \n");
-    printf("\t \\/ \n");
+    printf("Robot nods head 10 degrees upward\n");
+    printf("Robot nods head 10 degrees backward\n");
+    printf("........... \n");
 }
 
 void singSong(){
-
+    
+    printf("Robot sings song\n");
     printf(SONG " \n");
+    printf("........... \n");
 }
 
 int sendCode(int x_code){
