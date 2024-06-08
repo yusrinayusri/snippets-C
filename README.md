@@ -1,5 +1,5 @@
 # snippets-C
-<p> code snippets in c
+<p> My code snippets in C. I learn and I code and I write.
 
 ```
  -. .-.   .-. .-.   .-. .-.   .
@@ -132,6 +132,10 @@ do {
 ```
 
 9. Functions
+
+- void function(): Use when no parameters are needed and no value needs to be returned.
+- void function(int): Use when parameters are needed, but no value needs to be returned.
+- int function(int): Use when parameters are needed and a value needs to be returned.
 
 <p> Function declaration and definiton
 
