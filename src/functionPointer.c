@@ -10,10 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SONG "Twinkle twinkle little star\
-              How I wonder what you are\
-              Up above the world so high\
-              Like a diamond in the sky"
+#define SONG "Twinkle twinkle little star"
 
 //function prototypes
 //declare the robot functions

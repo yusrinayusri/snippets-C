@@ -1,5 +1,5 @@
 /*
-* FUNCTION POINTER
+* FUNCTION & POINTER
 * Passing a pointer to a function: the information that's modified is automatically returned.
 * The function references a memory address and not to the value directly. Thus, manipulating the information directly.
 *
