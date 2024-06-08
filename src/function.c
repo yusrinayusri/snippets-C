@@ -8,7 +8,7 @@
 //define symbolic name or constants
 #define HELLO "Hello World!"
 
-//function prototype
+//function prototype and declaration
 //is needed when the function location is below the main function. 
 //so to avoid using function prototype, just move the function before the main function.
 void simpleFunction();
@@ -21,12 +21,15 @@ int main(int argc, char* argv[]){
     printf(HELLO " \n");
 
     while (count < 3) {
+        //function call
         simpleFunction();
         count++;
     }
     
+    return 0;
 }
 
+//function definition
 void simpleFunction(){
 
     printf("I love C language\n");
