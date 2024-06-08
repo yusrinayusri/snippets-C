@@ -32,7 +32,7 @@ int main(){
     nodHead();
 
     // points to the void singSong function
-    // Note: In C, you can also write actionPointer = singSong; without the ampersand (&), 
+    // In C, you can also write actionPointer = singSong; without the ampersand (&), 
     // as the function name already represents its address.
     remoteFunction = singSong;
     //call the function through the pointer
