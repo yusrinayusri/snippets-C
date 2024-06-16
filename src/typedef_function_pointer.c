@@ -29,10 +29,13 @@ int main(){
     chant();
 
     //pointer with typedef
-    fPointer fp = &singSong;
+    fPointer fp;
+    
+    //point the pointers to the functions
+    fp = &singSong;
     singSong(8);
 
-    fPointer fp1 = &chant;
+    fp = &chant;
     chant();
 
     return 0;
